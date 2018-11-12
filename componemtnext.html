@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<title>components part 3</title>
+</head>
+<body>
+
+	<section>
+		<div class="container">
+			<div class="col-md-6 offset-md-4">
+				<h3 style="margin-bottom: 90px;">Popover Example</h3>
+				<a href="#" title="Header" data-toggle="popover" data-placement="top" data-content="Content">Top</a>
+				<a href="#" title="Header" data-toggle="popover" data-placement="bottom" data-content="Content">Bottom</a>
+				<a href="#" title="Header" data-toggle="popover" data-placement="left" data-content="Content">Left</a>
+				<a href="#" title="Header" data-toggle="popover" data-placement="right" data-content="Content">Right</a>
+			</div>
+
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<h3>Tooltip Example</h3>
+			<a href="#" data-toggle="tooltip" title="Hooray!">Hover over me</a>
+		</div>
+	</section>
+	<section class="nfff mt-5 ">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="index.html"><img src="images/minimo_logo.png" alt="minimo"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="custom_forms.html">Forms</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Dropdown
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Component<span class="sr-only">(current)</span></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		
+	</section>
+
+	<section class="sccccll">
+		<div class="container">
+			<h1>scrollspy </h1>
+			<nav id="navphis" class="navbar navbar-light bg-light">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#link">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#aboutus">About Us</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#one">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Separated link</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+				<h4 id="home">Home</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem possimus nobis autem aut sit quas dolor nostrum. Aliquid, laudantium!  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.50</p>
+				<h4 id="link">Link</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda fuga, eos, non inventore ullam earum accusamus sequi atque? Porro obcaecati libero ullam, vero nisi, maiores. Rerum praesentium delectus ipsum possimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iste, ratione fugiat dolore at minima cum quasi distinctio similique veniam dolor fuga ex perferendis dignissimos esse aut eligendi nemo asperiores!</p>
+				<h4 id="aboutus">About Us</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure fugit voluptatibus esse nisi possimus? Ratione esse unde optio, assumenda?</p>
+				<h4 id="one">Action</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam hic amet cupiditate doloribus, nostrum voluptatum.</p>
+
+			</div>
+
+
+		</div>
+	</section>
+
+
+	<nav aria-label="Page navigation example">
+		<ul class="pagination justify-content-center mt-5">
+			<li class="page-item">
+				<a class="page-link" href="custom_forms.html">Previous</a>
+			</li>
+			<li class="page-item"> <a class="page-link" href="index.html">1</a></li>
+			<li class="page-item"> <a class="page-link" href="custom_forms.html">2</a></li>
+			<li class="page-item active"> <a class="page-link" href="componentforms.html">3</a></li>
+			<li class="page-item disabled">
+				<a class="page-link" href="custom_forms.html" tabindex="-1">Next</a>
+			</li>
+		</ul>
+	</nav>
+
+	<!-- jQuery links-->
+	<script src="js/jquery-3.3.1.min.js"></script>  
+	<script src="js/popper.min.js"></script>  
+	<script src="js/bootstrap.min.js"></script>    
+	<script src="js/script.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('[data-toggle="popover"]').popover();
+			$('[data-toggle="tooltip"]').tooltip();      
+		});
+		
+	</script>
+</body>
+</html>
+</body>
+</html>

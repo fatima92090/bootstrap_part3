@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<title>components part 3</title>
+</head>
+<body>
+	<section>
+		<div class="container">
+			<!-- custom_forms -->
+			<form action="" method="">
+				<div class="row">
+					<div class="col-md-6 offset-md-3">
+						<h1 class="mt-3 mb-3">Custom Forms</h1>
+						<div class="form-group">
+							<label for="name"> Name</label>
+							<input type="text" name="name" class="form-control" id="name" placeholder="Enter your name">
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" name="email" class="form-control" id="email" placeholder="Enter your email address">
+						</div>
+
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" name="email" class="form-control" id="email" placeholder="Enter your Password">
+						</div>
+						<div class="form-group form-check">
+							<input type="checkbox" name="check" class="form-check-input" id="check">
+							<label for="check" class="form-check-label">Check me out</label>
+						</div>
+						<div class="form-group">
+							<label for="describe">Textarea</label>
+							<textarea class="form-control" id="describe" rows="3"></textarea>
+						</div>
+
+
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+				
+			</form>
+			<!-- custom_forms -->
+
+			<!-- form-grid -->
+			<form action="" method="" class="col-md-6 offset-md-3">
+				<hr class="my-4">
+				<h1 class="mt-5 mb-3">Form grid</h1>
+				<div class="row mb-2">
+					<div class="col">
+						<input type="text" class="form-control" placeholder="First name">
+					</div>
+					<div class="col">
+						<input type="text" class="form-control" placeholder="Last name">
+					</div>
+				</div>
+				<div class="row mb-2">
+					<div class="col">										
+						<input type="text" name="address" placeholder="Address" class="form-control">
+					</div>
+				</div>	
+				<div class="row mb-2">
+					<div class="col">
+						<input type="text" name="city" placeholder="City Name" class="form-control">
+					</div>	
+					<div class="col">
+						<select class="form-control" placeholder="select one">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+					<div class="col mb-2">
+						<input type="text" name="zipcode" id="zipcode" class="form-control" placeholder="ZipCode">
+					</div>					
+
+				</div>				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			
+		</form>
+		<!-- form-grid -->
+		
+		<form class="mt-3 mb-3 col-md-7 offset-md-3"> 
+			<hr class="my-4">
+			<h1 class="mt-5 mb-3"> Auto sizing</h1>
+			<div class="form-row align-items-center">
+				<div class="col-auto">
+					<label  class="sr-only" for="name">Name</label>
+					<input type="text" name="name" placeholder="Name" id="name" class="form-control">
+				</div>
+				<div class="col-auto">
+					<label  class="sr-only" for="username">Username</label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<div class="input-group-text">@</div>
+						</div>
+						<input type="text" name="username" placeholder="User Name" id="username" class="form-control">
+					</div>
+
+				</div>
+				<div class="col-auto">
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" id="autoSizingCheck">
+						<label class="form-check-label" for="autoSizingCheck">
+							Remember me
+						</label>
+					</div>
+				</div>
+				<div class="col-auto">
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</div>
+			</div>			
+		</form>
+
+	</div>
+</section>
+
+<section class="plaintxt">
+	<div class="container">
+		<!-- custom_forms1 -->
+
+		<form action="" method="" class="col-md-6 offset-md-3">
+			<hr class="my-4">
+			<h1 class="mt-5 mb-3">Readonly plain text</h1>
+			<div class="form-group row">
+				<label for="email" class="col-sm-2 col-form-label">Email</label>
+				<div class="col-sm-10">
+					<input type="text" readonly class="form-control-plaintext" id="email" value="faima@example.com">
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="password" class="col-sm-2 col-form-label">Password</label>
+				<div class="col-sm-10">
+					<input type="password" class="form-control" id="password" placeholder="Password">
+				</div>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+		<!-- custom_forms1 -->
+
+	</div>
+</section>
+
+<nav aria-label="Page navigation example">
+	<ul class="pagination justify-content-center mt-5">
+		<li class="page-item">
+			<a class="page-link" href="index.html">Previous</a>
+		</li>
+		<li class="page-item "> <a class="page-link" href="index.html">1</a></li>
+		<li class="page-item active"> <a class="page-link" href="custom_forms.html">2</a></li>
+		<li class="page-item"> <a class="page-link" href="componemtnext.html">3</a></li>
+		<li class="page-item">
+			<a class="page-link" href="componemtnext.html">Next</a>
+		</li>
+	</ul>
+</nav>
+<!-- jQuery links-->
+<script src="js/jquery-3.3.1.min.js"></script>  
+<script src="js/popper.min.js"></script>  
+<script src="js/bootstrap.min.js"></script>    
+<script src="js/script.js"></script>
+</body>
+</html>
